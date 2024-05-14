@@ -1,0 +1,81 @@
+body {
+  background-color: #cadad7;
+  font-style: italic;
+
+
+}
+
+.cats {
+  
+  margin: 0.5em;
+  padding: 1em;
+ 
+  border-radius: 1em;
+  flex: 1;
+  font-style: oblique;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  
+
+}
+
+.cat {
+  flex: 1 1 100%;
+  background-color: #05cbe5;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+
+
+
+@media screen and (min-width: 961px) {
+  .cat {
+      flex: 1 1 calc(33.33% - 20px);
+  }
+}
+
+
+
+
+img {
+  max-width: 100%;
+  /* Make images responsive */
+  height: auto;
+  /* Maintain aspect ratio */
+}
+
+/* Maintain aspect ratio */
+
+element {
+  padding: 1em;
+  margin: 1em;
+  border-radius: 1em;
+}
+
+button {
+  padding: 0.5em;
+  margin: 0.5em;
+  border-radius: 2em;
+  border: 1px solid #062344;
+  font-style: oblique;
+}
+
+input {
+  padding: 0.5em;
+  margin: 0.5em;
+  border-radius: 2em;
+  border: 1px solid #ab1403;
+  font-style: oblique;
+
+}
+
+fieldset {
+  padding: 0.5em;
+  margin: 1em;
+  border-radius: 2em;
+  border: 1px solid #510c96;
+  font-style: oblique;
+
+}
